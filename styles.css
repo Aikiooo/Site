@@ -1,0 +1,36 @@
+ul {
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+li {
+    font-size: larger;
+    font-weight: bold;
+}
+div.Pres1{
+    white-space:nowrap;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+body {
+    background-color: #ffffff ;  
+}
+img.logo{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+footer{
+    text-align: left;
+    border: 8px solid #000000;
+
+}
