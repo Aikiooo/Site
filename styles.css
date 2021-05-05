@@ -44,3 +44,8 @@ figure{
 a{
     margin-right: 0.2cm;
 }
+
+.barrenav {
+    background-color: #94949491;
+    font-size: larger;
+}
