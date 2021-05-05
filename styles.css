@@ -1,17 +1,19 @@
 ul {
-    white-space:nowrap;
+    white-space: nowrap;
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
+    align-items: center;
+    justify-content: center;
 
 }
 li {
     font-size: larger;
     font-weight: bold;
+    margin-right: 1cm;
+    
 }
-div.Pres1{
+.Pres1{
     white-space:nowrap;
-
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -33,4 +35,12 @@ footer{
     text-align: left;
     border: 8px solid #000000;
 
+}
+
+figure{
+    justify-content: space-around;
+}
+
+a{
+    margin-right: 0.2cm;
 }
