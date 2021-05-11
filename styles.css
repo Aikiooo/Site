@@ -1,16 +1,20 @@
 body {
     color:black;
     background-color:white;
-    background-image:url(img/salle.jpg);
-    }
+    background-image:url(img/Salle\ de\ sport.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-origin: content-box;
+}
+
 ul {
     white-space: nowrap;
     display: flex;
     list-style-type: none;
     align-items: center;
     justify-content: center;
-
 }
+
 li {
     font-size: larger;
     font-weight: bolder;
