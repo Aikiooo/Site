@@ -52,6 +52,9 @@ figure{
 
 a{
     margin-right: 0.2cm;
+    text-decoration: none;
+    color: white;
+    text-shadow:3px 1px 2px black;
 }
 
 header {
