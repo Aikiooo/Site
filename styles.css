@@ -93,14 +93,17 @@ header {
 
 .produits span{
     width: auto;
-    margin: 1%;
     text-align: center;
+    margin: auto;
 }
 
-.produits img{
+.produits:nth-of-type(odd) img{
     float: left;
-
 }
+.produits:nth-of-type(even) img{
+    float: right;
+}
+
 /*image , texte cours*/
 .cours{
     background-color:#000000;
