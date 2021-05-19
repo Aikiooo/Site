@@ -101,3 +101,8 @@ header {
     float: left;
 
 }
+/*image , texte cours*/
+.cours{
+    background-color:#000000;
+    color: #ffffff;
+}
