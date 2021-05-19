@@ -67,8 +67,18 @@ header {
     background-color: #000000;
     color:#ffe601;
 }
-/*image favre*/
+/*image, texte favre*/
 .favre{
+    background-color: #000000;
+    color:#ffe601
+}
+/*image, texte gatorade*/
+.gatorade{
+    background-color: #000000;
+    color:#ffe601
+}
+/*image,texte  vegan*/
+.vegan{
     background-color: #000000;
     color:#ffe601
 }
