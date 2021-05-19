@@ -64,21 +64,40 @@ header {
 
 /*Texte page contact*/
 .contact{
-    background-color: #000000;
-    color:#ffe601;
+    display: flex;
+    background-color: #94949491;
+    font-size: larger;
+    color:white;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 1%;
+    border-bottom: 5% solid #00000000;
 }
 /*image, texte favre*/
-.favre{
-    background-color: #000000;
-    color:#ffe601
+
+.produits{
+    display: inline-block;
+    background-color: #94949491;
+    font-size: larger;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 1%; 
 }
-/*image, texte gatorade*/
-.gatorade{
-    background-color: #000000;
-    color:#ffe601
+
+.produits span{
+    width: auto;
+    margin: 1%;
+    text-align: center;
 }
-/*image,texte  vegan*/
-.vegan{
-    background-color: #000000;
-    color:#ffe601
+
+.produits img{
+    float: left;
+
 }
