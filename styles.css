@@ -119,3 +119,10 @@ header {
 .homepagetext{
     background-color:#94949491;
 }
+
+/*image abonnement de base*/
+
+article{background-color: #ffffff; max-width: 350px;text-align: center;}
+article img {width: 100%; height: auto; display: block;}
+article p span {display: block;}
+main{display: flex; justify-content: space-between;max-width: 70%;margin: auto;padding:50px;}
