@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-origin: content-box;
+    background-attachment: fixed;
 }
 
 ul {
@@ -43,7 +44,8 @@ img.logo{
 footer{
     text-align: left;
     border: 8px solid #000000;
-
+    margin-top: auto;
+    
 }
 
 figure{
@@ -126,3 +128,9 @@ article{background-color: #ffffff; max-width: 350px;text-align: center;}
 article img {width: 100%; height: auto; display: block;}
 article p span {display: block;}
 main{display: flex; justify-content: space-between;max-width: 70%;margin: auto;padding:50px;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
