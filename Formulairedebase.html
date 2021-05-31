@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Formulaire abonnement de base</title>
+       <meta charset="utf=-8">
+       <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <header>
+            <ul> <!-- Barre navigation -->
+                <li><a href="homepage.html"><img src="img/logo.png"
+                    width="150"
+                    height="150"></a></li>
+                <li><a href="abonnement.html">Abonnements</a></li>
+                <li><a href="cours.html"> Cours collectifs</a></li>
+                <li><a href="sejours.html">Séjours sportifs</a></li>
+                <li><a href="produits.html">Produits nutritionnels</a></li>
+                <li><a href="espace.html"> Espace bien-être</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+     <main>
+        <form action="/site/target.php" method="post">
+            Entrez votre nom:
+            <input type="text" name="nom" size="20" />
+            Entrez votre prenom
+            <input type="text" name="prenom" size="20" />
+            <br/>
+            Age :
+            <input type="text" name="age" size="20" />
+            <br/>
+            <input type ="radio" name="genre" value="1" checked /> Femme
+            <br/>
+            <input type ="radio" name="genre" value="1" checked /> Homme
+            <br/>
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Annuler" />
+        </form>
+    </main>
+        <footer>        
+            <figure> <!-- Pied de page avec hyperlien -->
+                    <a href="https://instagram.com/">
+                        <img src="img/instagram.png"
+                        alt="instagram"
+                        width="75"
+                        height="75"></a>
+
+                    <a href="https://twitter.com/">
+                        <img src='img/twitter.png'
+                        alt='twitter'
+                        width="75"
+                        height="75"></a>
+
+                    <a href="https://facebook.com/">
+                         <img src='img/facebook.png'
+                         alt='facebook'
+                         width="75"
+                         height="75">
+                    </a>
+            </figure>
+        </footer>
+    </body>
+</html>

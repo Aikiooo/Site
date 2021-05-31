@@ -127,6 +127,9 @@ header {
 article{background-color: #ffffff; max-width: 350px;text-align: center;}
 article img {width: 100%; height: auto; display: block;}
 article p span {display: block;}
+<<<<<<< HEAD
+
+=======
 main{display: flex; justify-content: space-between;max-width: 70%;margin: auto;padding:50px;}
 
 .container {
@@ -134,3 +137,4 @@ main{display: flex; justify-content: space-between;max-width: 70%;margin: auto;p
     flex-direction: column;
     min-height: 100vh;
 }
+>>>>>>> f8328283af8469295e3a5b3e88afca5f01b797e2
