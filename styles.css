@@ -89,7 +89,7 @@ header {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 2%;
-    padding: 1%; 
+    padding: 1%;
 }
 
 .produit form{
@@ -104,14 +104,14 @@ header {
     text-align: center;
     margin: auto;
 }
-
+/*
 .produits:nth-of-type(odd) img{
     float: left;
 }
 .produits:nth-of-type(even) img{
     float: right;
 }
-
+*/
 /*image , texte cours*/
 .cours{
     background-color:#000000;
@@ -130,7 +130,19 @@ header {
 
 /*image abonnement de base*/
 
-article{background-color: #ffffff; max-width: 350px;text-align: center;}
+article{
+    background-color: #94949491;
+    max-width: 350px;
+    
+    text-align: center;
+    border: 1px solid #bcbec0;
+    font-family: Montserrat,sans-serif;
+    font-weight: 8000;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 20px;
+    float:left;
+}
 article img {width: 100%; height: auto; display: block;}
 article p span {display: block;}
 
@@ -139,4 +151,11 @@ article p span {display: block;}
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px 2px black;
+    text-size-adjust: auto;
 }
