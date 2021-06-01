@@ -85,7 +85,6 @@ header {
     background-color: #94949491;
     font-size: larger;
     color:white;
-    display: flex;
     align-items: center;
     margin-left: 2%;
     margin-right: 2%;
@@ -93,6 +92,13 @@ header {
     padding: 1%; 
 }
 
+.produit form{
+    background-color: #94949491;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 1%; 
+}
 .produits span{
     width: auto;
     text-align: center;
