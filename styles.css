@@ -9,7 +9,8 @@ body {
 }
 
 ul {
-    white-space: nowrap;
+    white-space: wrap;
+    flex-flow: row wrap;
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -43,8 +44,9 @@ img.logo{
 
 footer{
     text-align: left;
-    border: 8px solid black;
+    border: 8px solid #000000 !important;
     margin-top: auto;
+    
     
 }
 

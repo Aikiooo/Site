@@ -10,18 +10,7 @@
 
 <body>
     <div class="container">
-        <header>
-            <ul>
-                <!-- Barre navigation -->
-                <li><a href="homepage.html"><img src="img/logo.png" width="150" height="150"></a></li>
-                <li><a href="abonnement.html">Abonnements</a></li>
-                <li><a href="cours.html"> Cours collectifs</a></li>
-                <li><a href="sejours.html">Séjours sportifs</a></li>
-                <li><a href="produits.html">Produits nutritionnels</a></li>
-                <li><a href="espace.html"> Espace bien-être</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </header>
+    <?php include("header.html"); ?>
         <main>
             <form class="produits" action="target.php" method="post">
 
@@ -63,19 +52,7 @@
                 <input type="reset" value="Annuler" /><br />
             </form>
         </main>
-        <footer>
-            <figure>
-                <!-- Pied de page avec hyperlien -->
-                <a href="https://instagram.com/" target="_blank">
-                    <img src="img/instagram.png" alt="instagram" width="75" height="75"></a>
-
-                <a href="https://twitter.com/" target="_blank">
-                    <img src='img/twitter.png' alt='twitter' width="75" height="75"></a>
-
-                <a href="https://facebook.com/" target="_blank">
-                    <img src='img/facebook.png' alt='facebook' width="75" height="75"></a>
-            </figure>
-        </footer>
+        <?php include("footer.html"); ?>
     </div>
 </body>
 
