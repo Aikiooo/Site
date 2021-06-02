@@ -1,163 +1,74 @@
-body {
-    color:black;
-    background-color:white;
-    background-image:url(img/Salle\ de\ sport.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-origin: content-box;
-    background-attachment: fixed;
-}
+body { color:black; background-color:white; background-image:url(img/Salle\ de\ sport.png); background-size: cover; background-repeat: no-repeat;  background-origin: content-box; background-attachment: fixed;}
 
-ul {
-    white-space: wrap;
-    flex-flow: row wrap;
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-}
+ul {    white-space: wrap; flex-flow: row wrap; display: flex; list-style-type: none; align-items: center; justify-content: center; min-height: 150;}
 
-li {
-    font-size: larger;
-    font-weight: bolder;
-    margin-right: 1cm;
-    
-}
-.Pres1{
-    white-space:nowrap;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
+li { font-size: larger; font-weight: bolder; margin-right: 1cm;}
+.Pres1{ white-space:nowrap; list-style-type: none; display: flex; justify-content: space-around; margin: auto;}
 
-}
-body {
-    background-color: #ffffff ;  
-}
-img.logo{
-    display: flex;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 1%;
-    margin-top: 2%;
-}
+body { background-color: white;}
+img.logo{ display: flex; text-align: center; margin: auto; margin: 2% 0% 1%;}
 
-footer{
-    text-align: left;
-    border: 8px solid #000000 !important;
-    margin-top: auto;
-    
-    
-}
+footer{ text-align: left; border: 8px solid #000000 !important; margin-top: auto;}
 
-figure{
-    justify-content: space-around;
-}
+figure{ justify-content: space-around;}
 
-a{
-    margin-right: 0.2cm;
-    text-decoration: none;
-    color: white;
-    text-shadow:3px 1px 2px black;
-}
+a{ margin-right: 0.2cm; text-decoration: none; color: white; text-shadow:3px 1px 2px black;}
 
-header {
-    background-color: #94949491;
-    font-size: larger;
-}
+header { background-color: #94949491; font-size: larger;}
 
 /*Texte page contact*/
-.contact{
-    display: flex;
-    background-color: #94949491;
-    font-size: larger;
-    color:white;
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-left: 1%;
-    border-bottom: 5% solid #00000000;
-}
+.contact{display: flex; background-color: #94949491; font-size: larger; color: white; align-items: center; padding-left: 1%; margin: 3% 30% 0 30%; justify-content: center; flex-wrap: wrap; flex-direction: column;}
 /*image, texte favre*/
 
 .produits{
-    display: inline-block;
-    background-color: #94949491;
-    font-size: larger;
-    color:white;
-    align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
-    padding: 1%;
+    display: inline-block; background-color: #94949491; font-size: larger; color:white; align-items: center; margin: 2% 2% 2% 2%; padding: 1%;}
+
+.imgproduit{max-width:323px; width:50%; height:auto;}
+
+.pageproduit {
+    display: flex; align-content: center;
 }
 
 .produit form{
-    background-color: #94949491;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
-    padding: 1%; 
-}
-.produits span{
-    width: auto;
-    text-align: center;
-    margin: auto;
-}
+    background-color: #94949491; margin-left: 2%; margin-right: 2%; margin-top: 2%; padding: 1%;}
+.produits span{ width: auto; text-align: center; margin: auto;}
 /*
 .produits:nth-of-type(odd) img{
     float: left;
 }
 .produits:nth-of-type(even) img{
     float: right;
-}
-*/
+} */
+
 /*image , texte cours*/
-.cours{
-    background-color:#000000;
-    color: #ffffff;
-}
+.cours{justify-content: space-evenly; align-content: center; display: flex; color: white; font-size: large; flex-wrap: wrap; font-weight: 600; background-color: transparent; flex-direction: column; margin: auto}
+.cours span{margin:0.2% 0 1.5% 0; text-align: center;}
+
+.cours img{max-width:500px; width:100%; height:auto;}
+
 /*image, texte espace bien être*/
-.espace{
-    color:#19a537;
-    background-color:#ffffff;
-}
+.espace{ color:#19a537; background-color:#ffffff;}
 
 /*texte homepage*/
-.homepagetext{
-    background-color:#94949491;
-}
-
+.homepagetext{display: flex; background-color: #94949491; color: white; margin: 3% 12% 0 12%; justify-content: center; flex-wrap: wrap; flex-direction: column; text-align: center; font-family:Gilroy,sans-serif; line-height: 180%;}
 /*image abonnement de base*/
 
 article{
-    background-color: #94949491;
-    max-width: 350px;
-    
-    text-align: center;
-    border: 1px solid #bcbec0;
-    font-family: Montserrat,sans-serif;
-    font-weight: 8000;
-    font-size: 14px;
-    margin: 10px;
-    line-height: 20px;
-    float:left;
-}
+    background-color: #94949491; max-width: 350px; text-align: center; border: 1px solid #bcbec0; font-family: Montserrat,sans-serif; font-weight: 8000; font-size: 14px; margin: 10px; line-height: 20px; float:left;}
 article img {width: 100%; height: auto; display: block;}
 article p span {display: block;}
 
 
 .container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+    display: flex; flex-direction: column; min-height: 100vh;}
 
 h1{
-    color: white;
-    text-align: center;
-    text-shadow: 3px 1px 2px black;
-    text-size-adjust: auto;
-}
+    color: white; text-align: center; text-shadow: 3px 1px 2px black; text-size-adjust: auto;}
+
+.sejour{background-color:transparent; text-align: center;}
+
+.sejours{background-color:transparent; display: flex; margin-block: 5vh; color:white; width: 50vh; white-space: wrap; flex-flow: row wrap; justify-content: center; margin: 5% auto 5% auto;}
+
+.mainabo{display: flex; justify-content: center; flex-flow: row wrap}
+
+.divabo{display: flex; align-items: center; justify-content: center; margin-block: 100px; color:white;}

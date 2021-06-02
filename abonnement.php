@@ -12,18 +12,18 @@
     <div class="container">
     <?php include("header.html"); ?>
 
-        <main style="display: flex; justify-content: center; flex-flow: row wrap">
-            <div style="display: flex; align-items: center; justify-content: center; margin-block: 100px; color:white;">
-                <a style="display: block;" href="Formulairedebase.html">
+        <main class="mainabo">
+            <div class="divabo">
+                <a style="display: block;" href="Formulairedebase">
                 <article style="margin-right: 5%;">
                     <img src="img/abo.jpg">
                     <p>Abonnement de base <span>25€/mois</span></p>
 
                 </article>
             </a>
-                <a style="display: block;" href="Formulairebienetre.html">
+                <a style="display: block;" href="Formulairebienetre">
                 <article style="margin-left: 5%;">
-                    <img src="img/abo.jpg">
+                    <img src="img/spa.jpg">
                     <p>Abonnement avec espace bien être <span>35€/mois</span></p>
 
                 </article>

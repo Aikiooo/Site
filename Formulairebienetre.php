@@ -23,7 +23,7 @@
                 <p> Genre : </p>
 
                 <div>
-                    <input type="radio" name="genre" value=1 checked>
+                    <input type="radio" name="genre" value=1>
                     <label for="genre">Femme</label>
                 </div>
 
@@ -31,10 +31,10 @@
                     <input type="radio" name="genre" value=2>
                     <label for="genre">Homme</label>
                 </div>
-                <!-- <div>
-                    <input type="radio" name="genre" value=2>
-                    <label for="genre">Autres</label>
-                </div>-->
+                <div>
+                    <input type="radio" name="genre" value=3>
+                    <label for="genre">Non binaire</label>
+                </div>
                 <p> Abonnement : </p>
 
                 <div>

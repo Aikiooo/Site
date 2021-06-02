@@ -14,28 +14,28 @@
 
         <main>
             <h1>Nos cours</h1>
-            <div class="produits" style="display: flex; align-content: center; width: 50vh;">
-                <img src="img/zumba.jpg" width="auto" height="250vh">
+            <div class="cours">
+                <img class="imgcours" src="img/zumba.jpg">
                 <span>
-                    zumba
+                    Zumba
                 </span>
             </div>
-            <div class="produits" style="display: flex; align-content: center; width: 50vh;">
-                <img src="img/crossfit.jpg" width="250vh" height="auto">
+            <div class="cours">
+                <img class="imgcours" src="img/crossfit.jpg">
                 <span>
-                    crossfit
+                    Crossfit
                 </span>
             </div>
-            <div class="produits" style="display: flex; align-content: center; width: 50vh;">
-                <img src="img/yoga.jpg" width="250vh" height="auto">
+            <div class="cours">
+                <img class="imgcours" src="img/yoga.jpg">
                 <span>
-                    yoga
+                    Yoga
                 </span>
             </div>
-            <div class="produits" style="display: flex; align-content: center; width: 50vh;">
-                <img src="img/pilates.jpg" width="250vh" height="auto">
+            <div class="cours">
+                <img class="imgcours" src="img/pilates.jpg">
                 <span>
-                    pilates
+                    Pilates
                 </span>
             </div>
         </main>

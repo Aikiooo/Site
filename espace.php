@@ -24,8 +24,6 @@
                     <p>Accès à l'espace bien être</p>
                 </article>
             </div>
-
-
         </main>
 
 <?php include("footer.html"); ?>

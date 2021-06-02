@@ -12,8 +12,8 @@
     <div class="container">
     <?php include("header.html"); ?>
         <main>
-            <div class="produits" style="display: flex; align-content: center;">
-                <img src="img/favre.jpg" width=auto height=300vh>
+            <div class="produits pageproduit">
+                <img class="imgproduit" src="img/favre.jpg" width=50% height=auto>
                 <span>
                     KingFit, en collaboration avec Eric Favre
                     En plus de ses équipements sportifs, KingFit collabore maintenant avec la marque de nutrition
@@ -26,16 +26,16 @@
                 </span>
             </div>
 
-            <div class="produits" style="display: flex; align-content: center;">
-                <img src="img/gatorade.jpg" width=auto height=300vh>
+            <div class="produits pageproduit">
+                <img class="imgproduit" src="img/gatorade.jpg">
                 <span>
                     Gatorade est une marque de boissons destinées aux sportifs, pionnière du genre et leader au U.S.A.
                     <br>Elles sont fabriquées pour réhydrater et apporter des électrolytes lors d'efforts physiques.
                 </span>
             </div>
 
-            <div class="produits" style="display: flex; align-content: center;">
-                <img src="img/vegan.jpg" width=auto height=300vh >
+            <div class="produits pageproduit">
+                <img class="imgproduit" src="img/vegan.jpg">
                 <span>VEGAN <br>
                     <br> Proteines de Riz 83 % Cru et BIO
                     <br> Régime Vegan / Végétarien Proteines de Riz 83 % Cru et BIO VEGAN :
